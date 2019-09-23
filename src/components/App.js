@@ -9,8 +9,8 @@ import Teachers from './Teachers';
 import NotFound from './NotFound';
 import Featured from './Featured';
 const App = () => (
-  <BrowserRouter>
-    <div className='container' basename="/course-directory">
+  <BrowserRouter  basename="/course-directory">
+    <div className='container'>
     <Header />
     <Switch>
       <Route exact path="/" component={Home}></Route>
