@@ -10,10 +10,9 @@ import NotFound from './NotFound';
 import Featured from './Featured';
 const App = () => (
   <BrowserRouter>
-    <div className='container'>
+    <div className='container' basename="/course-directory">
     <Header />
     <Switch>
-    <BrowserRouter basename="/course-directory" />
       <Route exact path="/" component={Home}></Route>
       <Route path="/about" render={() => <About title='About'/>}></Route>
       <Route exact path="/teachers" component={Teachers}></Route>
