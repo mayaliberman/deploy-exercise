@@ -9,7 +9,7 @@ import Teachers from './Teachers';
 import NotFound from './NotFound';
 import Featured from './Featured';
 const App = () => (
-  <HashoRouter  >
+  <HashRouter  >
     <div className='container'>
     <Header />
     <Switch>
@@ -21,7 +21,7 @@ const App = () => (
       <Route component={NotFound} />
       </Switch>
     </div>
-  </HashoRouter>
+  </HashRouter>
 );
 
 export default App;
