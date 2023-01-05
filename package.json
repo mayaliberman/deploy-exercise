@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://mayaliberman.github.io/deploy-exercise/",
   "devDependencies": {
-    "react-scripts": "1.0.6"
+    "react-scripts": "5.0.1"
   },
   "dependencies": {
     "gh-pages": "^2.1.1",
